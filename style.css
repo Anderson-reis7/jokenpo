@@ -33,7 +33,7 @@ h1 {
 }
 
 button {
-  margin: 30px 0;
+  margin: 20px 0;
   display: flex;
   gap: 40px;
   padding: 10px;
@@ -66,7 +66,6 @@ p {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
-  
 }
 
 .human-score {
@@ -79,5 +78,5 @@ p {
 
 .result {
   font-weight: bold;
-  color: #000000;
+  margin-bottom: 15px;
 }
