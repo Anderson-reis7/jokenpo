@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: url("./img/WDZe.gif") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container-main {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+button {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button-rock {
+  background-color: #eb4343;
+}
+
+.button-paper {
+  background-color: #d7e60d;
+}
+
+.button-scissors {
+  background-color: #43ebb3;
+}
+
+.primary-section {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+.human-score {
+  color: #059105;
+}
+
+.computer-score {
+  color: #dd0a0a;
+}
+
+.result {
+  font-weight: bold;
+  color: #000000;
+}
